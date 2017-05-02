@@ -20,6 +20,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		BuildVersion_UseUniversalClock = True
+		BuildVersion_UpdateFileVersion = True
+		BuildVersion_UpdateAssemblyVersion = True
+		BuildVersion_BuildVersioningStyle = None.Increment.YearDayOfYearStamp.TimeStamp
 		BuildVersion_StartDate = 2000/1/1
 	EndGlobalSection
 EndGlobal

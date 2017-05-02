@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="post-build1.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="notepadpp.ico" />
@@ -61,4 +62,8 @@
       <UserProperties BuildVersion_UseUniversalClock="True" BuildVersion_StartDate="2017/4/29" BuildVersion_UpdateFileVersion="True" BuildVersion_UpdateAssemblyVersion="True" BuildVersion_BuildVersioningStyle="None.Increment.YearDayOfYearStamp.TimeStamp" />
     </VisualStudio>
   </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
 </Project>

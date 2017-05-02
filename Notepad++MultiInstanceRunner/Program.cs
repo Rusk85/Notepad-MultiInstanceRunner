@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Console;
-
-namespace Notepad__MultiInstanceRunner
+﻿namespace Notepad__MultiInstanceRunner
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             new Program().StartNotepadMultiInst();
         }
